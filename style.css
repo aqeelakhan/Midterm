@@ -1,0 +1,179 @@
+/* These classes and id's pertain to text styling */
+
+.bodytext {
+	font-family: "Helvetica";
+	font-size: 11pt;
+	margin-right:100pt;
+	line-height: 130%;
+	margin-left:10pt;
+
+}
+
+#bodytext2 {
+	font-family: "Helvetica";
+	font-size: 11pt;
+	line-height: 130%;
+	padding-left:230pt;
+
+}
+
+
+.title {
+	font-family: "Linux Libertine";
+	font-size:20pt;
+	font-weight:bold;
+	margin-left:10pt;
+}
+
+h1 {
+	font-family: "Linux Libertine";
+	font-size:16pt;
+	font-weight:bold;
+	margin-left:10pt;
+
+}
+
+h2 {
+	font-family:"Helvetica";
+	font-size:13pt;
+	font-weight:bold;
+	margin-left:10pt;
+}
+
+.caption {
+	margin-right:10pt;
+	font-family: "Helvetica";
+	font-size: 9pt;
+}
+
+.reftext {
+	font-family:"Helvetica";
+	font-size:10pt;
+}
+
+/* This pertains to the link styling */
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {color:#0b48aa;
+}      
+
+/* visited link */
+a:visited {color:purple;
+	}  
+
+/* mouse over link */
+a:hover {color:blue;
+	text-decoration:underline;
+
+	}  
+
+	/* selected link */
+a:active {color:orange;}  
+
+/* This pertains to all the wrappers made for the html */
+.tableofcontents {
+	font-family: "Helvetica";
+	font-size:11pt;
+	border:1px solid black;
+	background-color:#f8f9fa;
+	padding-left:10pt
+	padding-top:2pt;
+	padding-bottom:10pt;
+	margin-right:700pt;
+	margin-left:10pt;
+}
+
+.refwrapper {
+float:left;
+width:35em;
+padding-right:30pt;
+}
+
+.textwrapper {
+float:left;
+width:60em;
+padding-right:0pt;
+font-family: "Helvetica";
+font-size: 11pt;
+line-height: 130%;
+padding-bottom:5pt;
+margin-left:10pt;
+}
+
+.textwrapper2 {
+float:left;
+width:62em;
+padding-right:0pt;
+font-family: "Helvetica";
+font-size: 11pt;
+line-height: 130%;
+padding-bottom:5pt;
+margin-left:10pt;
+}
+
+
+br {
+	clear:left;
+	line-height:130%;
+}
+
+
+.cameraobscurawrapper {
+float:left;
+border:0.5pt solid black;
+padding-left:5pt;
+padding-top:5pt;
+background-color:#f8f9fa;
+padding-right:5pt;
+
+}
+
+.niepcewrapper {
+float:left;
+width:15em;
+padding-right:10pt;
+padding-bottom:5pt;
+border:0.5pt solid black;
+padding-left:10pt;
+padding-top:10pt;
+background-color:#f8f9fa;
+}
+
+#lenswrapper {
+	border:0.5px solid black;
+	background-color:#f8f9fa;
+	padding-top:5pt;
+	padding-bottom:5pt;
+	padding-right:3pt;
+	margin-left:650pt;
+
+}
+
+/* This pertains to the image styling */
+
+.niepce {
+	height:130pt;
+	width:180pt;
+}
+
+.image{
+	height:100pt;
+	width:100pt;
+	border:0.5px solid black;
+	font-size:12pt;
+}
+
+#camera {
+	height:185px;
+	width:250px;
+	border:0.5px solid black;
+	background-color:#f8f9fa;
+
+}
+
+
+
